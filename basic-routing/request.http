@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: localhost:3000
+
+###
+
+POST / HTTP/1.1
+Host: localhost:3000
+
+content
+
+###
+
+PUT /user HTTP/1.1
+Host: localhost:3000
+
+content
+
+###
+
+DELETE /user HTTP/1.1
+Host: localhost:3000
